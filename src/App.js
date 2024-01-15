@@ -1,4 +1,3 @@
-
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -12,14 +11,14 @@ import Touch from './components/Touch';
 function App() {
   return (
     <div >
-      <Menu/>
-      <Header/>
-      <About/>
-      <Skills/>
-      <Portfolio/>
-      <Education/>
-      <Contact/>
-      <Touch/>
+      <Menu />
+      <Header />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Education />
+      <Contact />
+      <Touch />
     </div>
   );
 }

@@ -1,6 +1,4 @@
-
 import './style.css';
-
 
 function Portfolio() {
   return (
@@ -15,9 +13,9 @@ function Portfolio() {
             </div>
             <div className='text'>
               <h3 className='h3'>Olena Studio</h3>
-              <p>Full Stack WebSite.</p> 
+              <p>Full Stack WebSite.</p>
               <p>FrontEnd is written in the React and BackEnd in the Node.
-              Also, the site has an analysis for the administrator using React Chart.</p> 
+                Also, the site has an analysis for the administrator using React Chart.</p>
               <p>The documentation is written by Swagger.</p>
             </div>
           </section>
@@ -27,7 +25,7 @@ function Portfolio() {
             </div>
             <div className='text'>
               <h3 className='h3'>Ulia Ushenko</h3>
-              <p>Full Stack WebSite.</p> 
+              <p>Full Stack WebSite.</p>
               <p>FrontEnd is written in the React and BackEnd in the Node.</p>
               <p>Mongo was used as a database.</p>
             </div>
@@ -38,9 +36,9 @@ function Portfolio() {
             </div>
             <div className='text'>
               <h3 className='h3'>Olena Studio</h3>
-              <p>Full Stack WebSite.</p> 
+              <p>Full Stack WebSite.</p>
               <p>FrontEnd is written in the React and BackEnd in the Node.
-              Also, the site has an analysis for the administrator using React Chart.</p> 
+                Also, the site has an analysis for the administrator using React Chart.</p>
               <p>The documentation is written by Swagger.</p>
             </div>
           </section>
@@ -50,14 +48,14 @@ function Portfolio() {
             </div>
             <div className='text'>
               <h3 className='h3'>Olena Studio</h3>
-              <p>Full Stack WebSite.</p> 
+              <p>Full Stack WebSite.</p>
               <p>FrontEnd is written in the React and BackEnd in the Node.
-              Also, the site has an analysis for the administrator using React Chart.</p> 
+                Also, the site has an analysis for the administrator using React Chart.</p>
               <p>The documentation is written by Swagger.</p>
             </div>
           </section>
         </div>
-       
+
       </div>
     </div>
   );

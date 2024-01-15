@@ -210,7 +210,6 @@ hr {
 
 .pie {
   display: inline-block;
-  /* margin: .5em; */
   width: 8em;
   height: 8em;
   position: relative;
@@ -223,10 +222,6 @@ hr {
   content: "";
   background: #232222;
   position: absolute;
-  /* left: .5em;
-  top: .5em;
-  height: 7em;
-  width: 7em; */
   left: 0.1em;
   top: 0.1em;
   height: 7.8em;
@@ -266,26 +261,24 @@ h5 {
   font-weight: 600;
 }
 
-
-
 .p1 {
   background-image: linear-gradient(200deg, transparent 50%, white 50%),
-    linear-gradient(90deg, transparent 50%, white 50%)
+    linear-gradient(90deg, transparent 50%, white 50%);
 }
 
 .box-pie:hover .p1 {
   background-image: linear-gradient(200deg, transparent 50%, #82a7c9 50%),
-    linear-gradient(90deg, transparent 50%, #82a7c9 50%)
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%);
 }
 
 .p2 {
   background-image: linear-gradient(180deg, transparent 50%, white 50%),
-    linear-gradient(90deg, transparent 50%, white 50%)
+    linear-gradient(90deg, transparent 50%, white 50%);
 }
 
 .box-pie:hover .p2 {
   background-image: linear-gradient(180deg, transparent 50%, #82a7c9 50%),
-    linear-gradient(90deg, transparent 50%, #82a7c9 50%)
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%);
 }
 
 .p3 {
@@ -315,7 +308,7 @@ h5 {
 
 @keyframes pulsing {
   0% {
-    transform: scale(1)
+    transform: scale(1);
   }
 
   50% {
@@ -329,7 +322,7 @@ h5 {
 
 @keyframes pulsing2 {
   0% {
-    transform: scale(0.95, 1)
+    transform: scale(0.95, 1);
   }
 
   50% {
@@ -354,8 +347,6 @@ h5 {
 
 .card {
   position: relative;
-
-
 }
 
 .portfolio-foto,
@@ -397,7 +388,6 @@ section .text {
 .section:hover .text {
   top: 0;
   left: 0;
-
 }
 
 .h3 {
@@ -436,7 +426,6 @@ section .text {
 .svg-line {
   transform: rotate(45deg);
   margin: 40px 0 0 100px;
-
 }
 
 polyline {
@@ -500,8 +489,6 @@ polyline {
   color: #232222;
 }
 
-
-
 /*GET IN TOUCH*/
 .touch {
   position: relative;
@@ -562,7 +549,7 @@ polyline {
 
 @keyframes end-triangle-pulsing {
   0% {
-    transform: scale(1)
+    transform: scale(1);
   }
 
   50% {

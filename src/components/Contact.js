@@ -1,7 +1,5 @@
-
 import './style.css';
 import { useState, useEffect } from "react";
-
 
 function Contact() {
 
@@ -18,7 +16,6 @@ function Contact() {
       setFormValid(false);
     }
   }, [email, name, text, phone]);
-
 
   return (
     <div className='contact' id='contact'>
