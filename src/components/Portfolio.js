@@ -1,4 +1,5 @@
 import './style.css';
+import './style@media.css';
 
 function Portfolio() {
   return (

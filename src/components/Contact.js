@@ -1,4 +1,5 @@
 import './style.css';
+import './style@media.css';
 import { useState, useEffect } from "react";
 
 function Contact() {

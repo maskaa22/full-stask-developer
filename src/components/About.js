@@ -1,4 +1,5 @@
 import './style.css';
+import './style@media.css';
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoMdBarcode } from "react-icons/io";
 
@@ -16,12 +17,12 @@ function About() {
           <article>
             <div className='flex-center'><FaLaptopCode className='icon' /></div>
             <p className='flex-center margin-top20 about-label'>FrontEnd</p>
-            <p className='flex-center margin-top20 text-center'>Nothing can be better than bringing a design to life with code and adding a little sparkle to it.</p>
+            <p className='flex-center margin-top20 text-center text-about'>Nothing can be better than bringing a design to life with code and adding a little sparkle to it.</p>
           </article>
           <article>
             <div className='flex-center'><IoMdBarcode className='icon' /></div>
             <p className='flex-center margin-top20 about-label'>BackEnd</p>
-            <p className='flex-center margin-top20 text-center'>Working with routes, databases and other curiosities adds magic to creating a full-fledged website.</p>
+            <p className='flex-center margin-top20 text-center text-about'>Working with routes, databases and other curiosities adds magic to creating a full-fledged website.</p>
           </article>
         </div>
       </div>

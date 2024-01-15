@@ -1,4 +1,5 @@
 import './style.css';
+import './style@media.css';
 import { FiPhone } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
@@ -32,7 +33,7 @@ function Touch() {
         </div>
         <div className='flex-around margin-top-100'>
           <div className='copyright opacity'>Copyright <MdOutlineCopyright /> 2024 by Mariia Skydan</div>
-          <div className='social-networks'>
+          <div className='social-networks opacity'>
             <RiLinkedinBoxLine onClick={() => window.location.assign('https://www.linkedin.com/in/mariia-skydan/')} />
             <IoLogoGithub onClick={() => window.location.assign('https://github.com/maskaa22')} />
             <IoLogoInstagram onClick={() => window.location.assign('https://www.instagram.com/mariigorevna656/')} />
