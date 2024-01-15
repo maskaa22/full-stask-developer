@@ -1,0 +1,575 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heigth100 {
+  height: 100%;
+}
+
+.al-it-cen {
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  color: #82a7c9;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.about-label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-logo {
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'DM Serif Display', serif;
+}
+
+.header__nav li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-family: "Zilla Slab";
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav-item a:hover {
+  color: #90b1d1;
+}
+
+.header {
+  background-color: #232222;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.rectangle-left {
+  position: absolute;
+  width: 30%;
+}
+
+.rectangle-rigth {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 30%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.height {
+  height: 100%;
+}
+
+.my_name,
+.my_surname {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  position: relative;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: normal;
+}
+
+.my_surname {
+  font-size: 90px;
+  font-family: 'DM Serif Display', serif;
+  text-transform: uppercase;
+  right: 40px;
+  font-weight: normal;
+}
+
+.my_foto {
+  height: 100%;
+  position: relative;
+  right: 80px;
+}
+
+.my_job {
+  text-align: center;
+  font-size: 6vh;
+  color: white;
+  font-family: "Zilla Slab";
+  position: relative;
+  bottom: 36px;
+  font-weight: normal;
+}
+
+.pulsing-img {
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+
+.pulsing-img2 {
+  -webkit-animation: pulsing2 2s infinite;
+  animation: pulsing2 2s infinite;
+}
+
+/* ABOUT */
+.about,
+.portfolio,
+.contact {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 40px 0 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Zilla Slab";
+  letter-spacing: .2rem;
+}
+
+hr {
+  width: 10%;
+  height: 1px;
+  background-color: #82a7c9;
+  text-align: center;
+}
+
+.about-p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 3vh;
+}
+
+.margin-top {
+  margin-top: 60px;
+}
+
+/* MY SKILLS*/
+.skills,
+.education,
+.touch {
+  background-color: #232222;
+  height: 400px;
+  width: 100%;
+}
+
+.color-white {
+  color: white;
+}
+
+.bgcolor-white {
+  background-color: #fff;
+}
+
+.pie {
+  display: inline-block;
+  /* margin: .5em; */
+  width: 8em;
+  height: 8em;
+  position: relative;
+  border-radius: 50%;
+}
+
+.pie:after {
+  border-radius: 50%;
+  display: block;
+  content: "";
+  background: #232222;
+  position: absolute;
+  /* left: .5em;
+  top: .5em;
+  height: 7em;
+  width: 7em; */
+  left: 0.1em;
+  top: 0.1em;
+  height: 7.8em;
+  width: 7.8em;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.box-pie {
+  position: relative;
+}
+
+h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h5 {
+  width: 6em;
+  height: fit-content;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+.p1 {
+  background-image: linear-gradient(200deg, transparent 50%, white 50%),
+    linear-gradient(90deg, transparent 50%, white 50%)
+}
+
+.box-pie:hover .p1 {
+  background-image: linear-gradient(200deg, transparent 50%, #82a7c9 50%),
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%)
+}
+
+.p2 {
+  background-image: linear-gradient(180deg, transparent 50%, white 50%),
+    linear-gradient(90deg, transparent 50%, white 50%)
+}
+
+.box-pie:hover .p2 {
+  background-image: linear-gradient(180deg, transparent 50%, #82a7c9 50%),
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%)
+}
+
+.p3 {
+  background-image: linear-gradient(160deg, transparent 50%, white 50%),
+    linear-gradient(90deg, transparent 50%, white 50%);
+}
+
+.box-pie:hover .p3 {
+  background-image: linear-gradient(160deg, transparent 50%, #82a7c9 50%),
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%);
+}
+
+.p4 {
+  background-image: linear-gradient(190deg, transparent 50%, white 50%),
+    linear-gradient(90deg, transparent 50%, white 50%);
+}
+
+.box-pie:hover .p4 {
+  background-image: linear-gradient(190deg, transparent 50%, #82a7c9 50%),
+    linear-gradient(90deg, transparent 50%, #82a7c9 50%);
+}
+
+.box-pie:hover h4,
+.box-pie:hover h5 {
+  color: #82a7c9;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulsing2 {
+  0% {
+    transform: scale(0.95, 1)
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95, 1);
+  }
+}
+
+/*PORTFOLIO*/
+.portfolio {
+  height: fit-content;
+}
+
+.grid-portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  position: relative;
+
+
+}
+
+.portfolio-foto,
+.portfolio-info {
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section {
+  position: relative;
+  width: 530px;
+  height: 225px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.section .image,
+section .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.section .image img {
+  width: 100%;
+}
+
+.section .text {
+  background: #232222;
+  top: 0;
+  left: 100%;
+  padding: 30px 30px;
+  color: white;
+
+}
+
+.section:hover .text {
+  top: 0;
+  left: 0;
+
+}
+
+.h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*EDUCATION*/
+.education {
+  color: white;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.education-p-name {
+  font-size: 20px;
+}
+
+.education-p-years {
+  color: #c1bfbf;
+}
+
+.education-p-last {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Zilla Slab";
+  padding-top: 20px;
+}
+
+.position-text-right {
+  text-align: right;
+}
+
+.svg-line {
+  transform: rotate(45deg);
+  margin: 40px 0 0 100px;
+
+}
+
+polyline {
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+}
+
+/*CONTACT MY*/
+.contact {
+  width: 100%;
+}
+
+.input {
+  border-bottom: 1px solid rgb(172, 172, 172);
+  outline: none;
+  width: 30%;
+}
+
+.input-message {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.input:invalid {
+  box-shadow: -1px 7px 9px 0px lightpink;
+}
+
+.input:valid {
+  box-shadow: none;
+}
+
+.input:focus {
+  border-color: #232222;
+}
+
+.button-send {
+  margin-top: 80px;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #82a7c9;
+  transition: ease-out 0.3s;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Zilla Slab";
+  letter-spacing: .2rem;
+}
+
+.button-send:hover {
+  box-shadow: inset 200px 0 0 0 #82a7c9;
+}
+
+.button-send:disabled {
+  background-color: #cccccc;
+  cursor: auto;
+  box-shadow: none;
+  color: #232222;
+}
+
+
+
+/*GET IN TOUCH*/
+.touch {
+  position: relative;
+  color: white;
+}
+
+.icon-touch {
+  width: 40px;
+  height: 40px;
+}
+
+.p-name-touch {
+  text-align: center;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.opacity {
+  z-index: 2;
+  position: relative;
+}
+
+.margin-left {
+  margin-left: 70px;
+}
+
+.social-networks {
+  cursor: pointer;
+}
+
+.end-triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  width: 35%;
+}
+
+.end-triangle {
+  -webkit-animation: end-triangle-pulsing 2s infinite;
+  animation: pulsing2 2s infinite;
+}
+
+@keyframes end-triangle-pulsing {
+  0% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(0.9, 1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
