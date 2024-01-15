@@ -2,8 +2,11 @@ import './style.css';
 import './style@media.css';
 
 function Header() {
+
+ 
+
   return (
-    <div className='header' id='home'>
+    <div className={`header `} id='home'>
       <img alt='rectangle-left' src={'./img/left.png'} className='rectangle-left pulsing-img' />
       <div className='container'>
         <div className='flex-center height'>
