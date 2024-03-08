@@ -42,7 +42,7 @@ function Portfolio() {
                 By moving the mouse over the screen, you can view this structure more comprehensively.</p>
             </div>
           </section>
-          <section className='section'>
+          <section className='section' onClick={() => window.location.assign('https://3d-model-website-ten.vercel.app/')}>
             <div className='image'>
               <img alt='Olena Studio' src={'./img/3d-website.png'} />
             </div>
