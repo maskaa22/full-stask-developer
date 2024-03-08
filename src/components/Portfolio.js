@@ -44,14 +44,13 @@ function Portfolio() {
           </section>
           <section className='section'>
             <div className='image'>
-              <img alt='Olena Studio' src={'./img/olena_studio.png'} />
+              <img alt='Olena Studio' src={'./img/3d-website.png'} />
             </div>
             <div className='text'>
-              <h3 className='h3'>Olena Studio</h3>
-              <p>Full Stack WebSite.</p>
-              <p>FrontEnd is written in the React and BackEnd in the Node.
-                Also, the site has an analysis for the administrator using React Chart.</p>
-              <p>The documentation is written by Swagger.</p>
+              <h3 className='h3'>3D - model website</h3>
+              <p>FrontEnd - WebSite.</p>
+              <p>Written on React using 3D models.
+              On the main window, there is an interactive menu in the form of a star system, and you can go to other pages when scrolling around.</p>
             </div>
           </section>
         </div>
