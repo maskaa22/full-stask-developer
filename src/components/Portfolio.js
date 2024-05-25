@@ -53,6 +53,17 @@ function Portfolio() {
               On the main window, there is an interactive menu in the form of a star system, and you can go to other pages when scrolling around.</p>
             </div>
           </section>
+          <section className='section' onClick={() => window.location.assign('https://bank-system-weld.vercel.app/')}>
+            <div className='image'>
+              <img alt='Bank system' src={'./img/bank_system.png'} />
+            </div>
+            <div className='text'>
+              <h3 className='h3'>Hoo bank</h3>
+              <p>FrontEnd - WebSite.</p>
+              <p>Written on React using Tailwind css.
+              A simple landing site that talks about banking opportunities. The main advantage is the use of a new library css.</p>
+            </div>
+          </section>
         </div>
 
       </div>
